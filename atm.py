@@ -7,7 +7,7 @@ class Atm(object):
     def depositMoney(self): 
         deposit = input('Enter amount to be deposited: ')
         amount=amount+deposit
-        print("\n Amount Deposited:", deposit)    
+        print(" Amount Deposited:", deposit)    
     def withdrawMoney(self):
         withdraw=input('Enter amount to be withdrawn: ')    
         if withdraw<=amount:
